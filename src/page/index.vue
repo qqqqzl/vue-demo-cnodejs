@@ -1,6 +1,9 @@
 <template>
   <div>
     <Header/>
+    <div class="img_test">
+        <img src="static/image/txdsr.png" alt="秦假仙">
+    </div>
     <div class="article_list">
       <ul>
         <li v-for="i in list" :key="i.id">
